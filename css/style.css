@@ -1,0 +1,189 @@
+html body{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+.collapse{
+    justify-content: flex-end;
+    width: 100%;
+}
+.content{
+    background: black;
+    height: 90vh;
+}
+.welcome{
+    padding-top: 15%;
+    font-size: 40px;
+    text-align: center;
+    animation-name: welcome;
+    animation-iteration-count: infinite;
+    animation-duration: 7s;
+}
+@keyframes welcome{
+    
+    0%{
+        color: brown;
+    }
+    25%{
+        color: blue;
+    }
+    50%{
+        color: black;
+    }
+    75%{
+        color: yellow;
+    }
+    100%{
+        color: pink;
+    }
+}
+.text{
+    text-align: center;
+}
+.comp{
+    display: flex;
+    margin-left: 5%;
+    padding-top: 7%;
+}
+.soci{
+    font-size: 27px;
+    color: tan;
+}
+
+.some{
+    font-size: 30px;
+}
+.col-sm-6 p:nth-child(1):hover{
+    user-select: none;
+    background-image: url(/img/Shape\ 4.png);
+    width: 66%;
+    height: 1vh;
+    margin-bottom: 11.1%;
+}
+.text2{
+    padding-top: 5%;
+}
+.names{
+    padding-top: 10%;
+    margin-top: 5%;
+}
+.people{
+    text-align: center;
+}
+.team{   
+    font-size: 40px;
+}
+.mane{
+    text-align: center;
+    padding-top: 5%;
+}
+.rad{
+    margin-left: 36%;
+    background:  aqua;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.col-sm-3 p{
+    padding-top: 7%;
+}
+.text3{
+    color: wheat;
+    font-size: 20px;
+}
+.slid{
+    padding-top: 7%;
+}
+.fons{
+    padding-top: 5%;
+    text-align: center;  
+    background: white;
+}
+
+.soc{
+   max-width: 100%;
+   justify-content: space-evenly;
+}
+.social{
+    width: 100%;
+    margin-top: 5%;
+    text-align: center;
+}
+.social :nth-child(2){
+    font-size: 20px;
+}
+.text5{
+    padding-top: 30%;
+    line-height: normal;
+}
+.mini{
+    padding-top: 5%;
+    text-align: center;
+    margin-top: 10%;
+    background: black;
+}
+.slide{
+    padding-top: 8%;
+}
+.bar{
+    padding-top: 8%;
+}
+.aim{
+    background: cornsilk;
+    text-align: center;
+    padding-top: 7%;
+}
+.text6{
+    padding-top: 5%;
+    margin-left: 5%;
+    width: 90%;
+}
+.goal{
+    max-width: 100%;
+    justify-content: center;
+    padding-bottom: 7%;
+}
+
+.lucky{
+    background: black;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.his{
+    padding-top: 5%;
+    color: antiquewhite;
+    width: 80%;
+    margin-left: 8%;
+}
+.down{
+    max-width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
+.that{
+    justify-content: space-around;
+}
+.dow{
+    max-width: 100%;
+}
+.time{
+    width: 99%;
+}
+.that{
+    width: 100%;
+}
+@media (min-width: 325px) and (max-width: 490px) {
+    .welcome{
+        font-size: 25px;
+    }
+    .team{
+        margin-right: 7%;
+    }
+    .social-img{
+        width: 40px;
+    }
+    .fons{
+        padding-top: 6%;
+    }
+}
